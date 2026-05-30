@@ -2,5 +2,66 @@
 
 
 const servicos = `<h1> esta é a pagina de serviços</h1>
-<p>serviços</p>`
+<div class="bem-grid-auto">
+        
+        <div class="bem-card">
+            <img class="bem-card__image" src="image.jpg" alt="Image description">
+            <div class="bem-card__body">
+                <h3 class="bem-card__title">Title</h3>
+                <p>Description</p>
+            </div>
+        </div>
+        <div class="bem-card">
+            <img class="bem-card__image" src="image.jpg" alt="Image description">
+            <div class="bem-card__body">
+                <h3 class="bem-card__title">Title</h3>
+                <p>Description</p>
+            </div>
+        </div>
+        <div class="bem-card">
+            <img class="bem-card__image" src="image.jpg" alt="Image description">
+            <div class="bem-card__body">
+                <h3 class="bem-card__title">Title</h3>
+                <p>Description</p>
+            </div>
+        </div>
+        <div class="bem-card">
+            <img class="bem-card__image" src="image.jpg" alt="Image description">
+            <div class="bem-card__body">
+                <h3 class="bem-card__title">Title</h3>
+                <p>Description</p>
+            </div>
+        </div>
+        <div class="bem-card">
+            <img class="bem-card__image" src="image.jpg" alt="Image description">
+            <div class="bem-card__body">
+                <h3 class="bem-card__title">Title</h3>
+                <p>Description</p>
+            </div>
+        </div>
+        <div class="bem-card">
+            <img class="bem-card__image" src="image.jpg" alt="Image description">
+            <div class="bem-card__body">
+                <h3 class="bem-card__title">Title</h3>
+                <p>Description</p>
+            </div>
+        </div>
+        <div class="bem-card">
+            <img class="bem-card__image" src="image.jpg" alt="Image description">
+            <div class="bem-card__body">
+                <h3 class="bem-card__title">Title</h3>
+                <p>Description</p>
+            </div>
+        </div>
+        <div class="bem-card">
+            <img class="bem-card__image" src="image.jpg" alt="Image description">
+            <div class="bem-card__body">
+                <h3 class="bem-card__title">Title</h3>
+                <p>Description</p>
+            </div>
+        </div>
 
+    </div>
+`
+
+export default servicos

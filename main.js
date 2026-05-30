@@ -1,11 +1,11 @@
 import navbar from './components/navbar/navbar.js'
-import home from './components/paginas/menu.js'
+import contato from './components/paginas/contato.js'
+import home from './components/paginas/home.js'
 import servicos from './components/paginas/servicos.js'
 import sobre from './components/paginas/sobre.js'
-import contato from './components/paginas/contato.js'
 
-contato()
-navbar()
+
+
 
 
 
@@ -20,35 +20,37 @@ app.innerHTML = '<h1> ola mundo</h1>'
 
 
 let rota = window.location.hash || '#inicio'
+
 render()
-window.addEventListener('hashchange',()=>{
-const rota = window.location.hash
-render()
-}
-)
+
+window.addEventListener('hashchange', () => {
+    rota = window.location.hash
+    render()
+})
 
 function render(){
-    switch(rota){
-    case '#inicio':
-        app.innerHTML= home
-        break;
-    
-    case '#sobre':
-        app.innerHTML = sobre;
-        break;
-    
-    case '#contato':
-        app.innerHTML = contato;
-        break;
-    case '#servicos':
-        app.innerHTML = servicos;
-        break;
 
-    default:
-        app.innerHTML = `<h1> pagina n encontrada</h1>`
-        
-        
-}
+    switch(rota){
+
+        case '#inicio':
+            app.innerHTML = home
+            break
+
+        case '#sobre':
+            app.innerHTML = sobre
+            break
+
+        case '#contato':
+            app.innerHTML = contato
+            break
+
+        case '#servicos':
+            app.innerHTML = servicos
+            break
+
+        default:
+            app.innerHTML = `<h1>pagina não encontrada</h1>`
+    }
 }
 
 // console.log('contagem regressiva')

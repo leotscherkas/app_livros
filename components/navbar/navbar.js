@@ -21,4 +21,4 @@ navbar.innerHTML = `<nav class="bem-navbar">
             </ul>
         </nav>`
 
-        
+        export default navbar
